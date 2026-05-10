@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1034874419736",
+    "project_id": "temp-thuo-market",
+    "storage_bucket": "temp-thuo-market.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1034874419736:android:5a58375c58d2fa559be16d",
+        "android_client_info": {
+          "package_name": "com.temothuomarket.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBiTIExBj0qaas0A-CV25P8-daWLr8JLYg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
