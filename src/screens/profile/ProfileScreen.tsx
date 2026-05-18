@@ -277,5 +277,6 @@ const styles = StyleSheet.create({
     fontWeight: "500",
   },
 });
-
+menuItem: { flexDirection: "row", alignItems: "center", paddingVertical: SPACING.md },
+                                                                                     ^
 export default ProfileScreen;
