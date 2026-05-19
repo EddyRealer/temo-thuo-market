@@ -247,12 +247,6 @@ const styles = StyleSheet.create({
     marginBottom: SPACING.md,
   },
 
-  menuItem: {
-    flexDirection: "row",
-    alignItems: "center",
-    paddingVertical: SPACING.md
-  },
-
   menuText: {
     flex: 1,
     fontSize: FONT_SIZES.md,
@@ -271,10 +265,14 @@ const styles = StyleSheet.create({
     color: COLORS.textSecondary,
   },
 
-  infoValue: {
+    infoValue: {
     fontSize: FONT_SIZES.md,
     color: COLORS.text,
     fontWeight: "500",
+  },
+});
+
+export default ProfileScreen;
   },
 });
 menuItem: { flexDirection: "row", alignItems: "center", paddingVertical: SPACING.md },
