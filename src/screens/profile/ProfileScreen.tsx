@@ -6,6 +6,7 @@ import {
   ScrollView,
   TouchableOpacity,
 } from "react-native";
+
 import { Ionicons } from "@expo/vector-icons";
 import { useSafeAreaInsets } from "react-native-safe-area-context";
 
@@ -72,6 +73,7 @@ const ProfileScreen: React.FC<ProfileScreenProps> = ({ navigation }) => {
             <Text style={styles.statLabel}>Posts</Text>
           </View>
         </View>
+
         <View style={styles.actions}>
           <Button
             title="Edit Profile"
@@ -147,17 +149,26 @@ const ProfileScreen: React.FC<ProfileScreenProps> = ({ navigation }) => {
         <Card>
           <View style={styles.infoRow}>
             <Text style={styles.infoLabel}>Farm Name</Text>
-            <Text style={styles.infoValue}>{user.farmName}</Text>
+
+            <Text style={styles.infoValue}>
+              {user.farmName}
+            </Text>
           </View>
 
           <View style={styles.infoRow}>
             <Text style={styles.infoLabel}>Location</Text>
-            <Text style={styles.infoValue}>{user.location}</Text>
+
+            <Text style={styles.infoValue}>
+              {user.location}
+            </Text>
           </View>
 
           <View style={styles.infoRow}>
             <Text style={styles.infoLabel}>Email</Text>
-            <Text style={styles.infoValue}>{user.email}</Text>
+
+            <Text style={styles.infoValue}>
+              {user.email}
+            </Text>
           </View>
         </Card>
       </ScrollView>
@@ -237,7 +248,7 @@ const styles = StyleSheet.create({
     padding: SPACING.lg,
   },
 
-    sectionTitle: {
+  sectionTitle: {
     fontSize: FONT_SIZES.lg,
     fontWeight: "600",
     color: COLORS.text,
@@ -270,7 +281,7 @@ const styles = StyleSheet.create({
     color: COLORS.textSecondary,
   },
 
-      infoValue: {
+  infoValue: {
     fontSize: FONT_SIZES.md,
     color: COLORS.text,
     fontWeight: "500",
