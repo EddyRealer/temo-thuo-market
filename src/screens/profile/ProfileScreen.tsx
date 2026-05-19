@@ -237,27 +237,27 @@ const styles = StyleSheet.create({
     padding: SPACING.lg,
   },
 
-  sectionTitle: {
-  fontSize: FONT_SIZES.lg,
-  fontWeight: "600",
-  color: COLORS.text,
-  marginHorizontal: SPACING.lg,
-  marginTop: SPACING.lg,
-  marginBottom: SPACING.md,
-},
+    sectionTitle: {
+    fontSize: FONT_SIZES.lg,
+    fontWeight: "600",
+    color: COLORS.text,
+    marginHorizontal: SPACING.lg,
+    marginTop: SPACING.lg,
+    marginBottom: SPACING.md,
+  },
 
-menuItem: {
-  flexDirection: "row",
-  alignItems: "center",
-  paddingVertical: SPACING.md,
-},
+  menuItem: {
+    flexDirection: "row",
+    alignItems: "center",
+    paddingVertical: SPACING.md,
+  },
 
-menuText: {
-  flex: 1,
-  fontSize: FONT_SIZES.md,
-  color: COLORS.text,
-  marginLeft: SPACING.md,
-},
+  menuText: {
+    flex: 1,
+    fontSize: FONT_SIZES.md,
+    color: COLORS.text,
+    marginLeft: SPACING.md,
+  },
 
   infoRow: {
     flexDirection: "row",
