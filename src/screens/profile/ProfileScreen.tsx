@@ -250,7 +250,7 @@ const styles = StyleSheet.create({
   menuItem: {
     flexDirection: "row",
     alignItems: "center",
-    paddingVertical: SPACING.md,
+    paddingVertical: SPACING.md
   },
 
   menuText: {
