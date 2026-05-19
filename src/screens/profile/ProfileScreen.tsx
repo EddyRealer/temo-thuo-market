@@ -72,7 +72,11 @@ const ProfileScreen: React.FC<ProfileScreenProps> = ({ navigation }) => {
             <Text style={styles.statLabel}>Posts</Text>
           </View>
         </View>
-
+menuItem: {
+  flexDirection: "row",
+  alignItems: "center",
+  paddingVertical: SPACING.md,
+},
         <View style={styles.actions}>
           <Button
             title="Edit Profile"
