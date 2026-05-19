@@ -72,11 +72,6 @@ const ProfileScreen: React.FC<ProfileScreenProps> = ({ navigation }) => {
             <Text style={styles.statLabel}>Posts</Text>
           </View>
         </View>
-menuItem: {
-  flexDirection: "row",
-  alignItems: "center",
-  paddingVertical: SPACING.md,
-},
         <View style={styles.actions}>
           <Button
             title="Edit Profile"
@@ -243,20 +238,26 @@ const styles = StyleSheet.create({
   },
 
   sectionTitle: {
-    fontSize: FONT_SIZES.lg,
-    fontWeight: "600",
-    color: COLORS.text,
-    marginHorizontal: SPACING.lg,
-    marginTop: SPACING.lg,
-    marginBottom: SPACING.md,
-  },
+  fontSize: FONT_SIZES.lg,
+  fontWeight: "600",
+  color: COLORS.text,
+  marginHorizontal: SPACING.lg,
+  marginTop: SPACING.lg,
+  marginBottom: SPACING.md,
+},
 
-  menuText: {
-    flex: 1,
-    fontSize: FONT_SIZES.md,
-    color: COLORS.text,
-    marginLeft: SPACING.md,
-  },
+menuItem: {
+  flexDirection: "row",
+  alignItems: "center",
+  paddingVertical: SPACING.md,
+},
+
+menuText: {
+  flex: 1,
+  fontSize: FONT_SIZES.md,
+  color: COLORS.text,
+  marginLeft: SPACING.md,
+},
 
   infoRow: {
     flexDirection: "row",
@@ -269,16 +270,11 @@ const styles = StyleSheet.create({
     color: COLORS.textSecondary,
   },
 
-    infoValue: {
+      infoValue: {
     fontSize: FONT_SIZES.md,
     color: COLORS.text,
     fontWeight: "500",
   },
 });
 
-export default ProfileScreen;
-  },
-});
-menuItem: { flexDirection: "row", alignItems: "center", paddingVertical: SPACING.md },
-                                                                                     ^
 export default ProfileScreen;
